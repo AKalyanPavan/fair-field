@@ -11,7 +11,7 @@ import phone from '../images/phone.svg';
 
 export default function Homepage() {
 	return(
-		<div className="max-w-[1300px] mx-auto sm:px-[50px] px-[20px] font-['Lexend']">
+		<div className="max-w-[1300px] mx-auto sm:px-[50px] px-[20px] font-['Lexend_Deca']">
 			<Header />
 			<div className="sm:mt-[150px] mt-[50px] sm:flex justify-between items-center sm:gap-[50px]">
 				<div className="text-[#37405E] min-[1200px]:max-w-[600px]">
