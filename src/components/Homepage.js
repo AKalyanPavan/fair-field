@@ -26,11 +26,13 @@ export default function Homepage() {
 					<div className="text-[20px] font-light">
 						Experience the perfect blend of elegance, security, and future-ready living at Fair Field – Anicham & Magilam. Strategically located in Ramanathapuram, Coimbatore, our premium gated community offers world-class amenities, sustainable infrastructure, and unparalleled investment opportunities.
 					</div>
-					<div className="w-fit mt-[30px] bg-[#37405E] py-[10px] px-[20px] rounded-[5px] cursor-pointer">
-						<span className="text-[#ffffff] tracking-tight">
-							Book Your Visit Today
-						</span>
-					</div>
+					<a href="tel:+91 7900884488">
+						<div className="w-fit mt-[30px] bg-[#37405E] py-[10px] px-[20px] rounded-[5px] cursor-pointer">
+							<span className="text-[#ffffff] tracking-tight">
+								Book Your Visit Today
+							</span>
+						</div>
+					</a>
 				</div>
 				<div>
 					<img src={firstSection} className="max-[1200px]:hidden rounded-[20px] border-solid border-[2px] border-[#37405E]" />
@@ -46,11 +48,13 @@ export default function Homepage() {
 						<Card cardData={basicFeautre} />
 					))}
 				</div>
-				<div className="w-fit mt-[30px] bg-[#37405E] mt-[50px] py-[10px] px-[20px] rounded-[5px] cursor-pointer mx-auto">
-					<span className="text-[#ffffff] tracking-tight">
-						Join an Elite Community – Reserve Your Spot Today!
-					</span>
-				</div>
+				<a href="tel:+91 7900884488">
+					<div className="w-fit mt-[30px] bg-[#37405E] mt-[50px] py-[10px] px-[20px] rounded-[5px] cursor-pointer mx-auto">
+						<span className="text-[#ffffff] tracking-tight">
+							Join an Elite Community – Reserve Your Spot Today!
+						</span>
+					</div>
+				</a>
 			</div>
 			<div className="mt-[100px] text-[#37405E] text-center">
 				<div className="sm:text-[40px] text-[30px]">Our Premium Amenities</div>
