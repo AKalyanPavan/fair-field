@@ -125,12 +125,14 @@ export default function Homepage() {
 				<div className="sm:text-[40px] text-[30px] text-center text-[#37405E]">
 					Fair Field – Where Luxury Meets Smart Investment!
 				</div>
-				<div className="bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium w-fit mx-auto mt-[20px]">
-					<img src={phone} />
-					<span className="text-[#ffffff] ml-[10px]">
-						+91 79 00 88 22 88
-					</span>
-				</div>
+				<a href="tel:+91 7900882288">
+					<div className="bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium w-fit mx-auto mt-[20px]">
+						<img src={phone} />
+						<span className="text-[#ffffff] ml-[10px]">
+							+91 79 00 88 22 88
+						</span>
+					</div>
+				</a>
 			</div>
 		</div>
 	)
