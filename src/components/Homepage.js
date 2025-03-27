@@ -33,7 +33,7 @@ export default function Homepage() {
 					</div>
 				</div>
 				<div>
-					<img src={firstSection} className="max-[1200px]:hidden" />
+					<img src={firstSection} className="max-[1200px]:hidden rounded-[20px] border-solid border-[2px] border-[#37405E]" />
 				</div>
 			</div>
 			<div className="mt-[100px] text-[#37405E] text-center">
@@ -62,9 +62,9 @@ export default function Homepage() {
 			</div>
 			<div className="mt-[100px] text-[#37405E] text-center">
 				<div className="sm:text-[40px] text-[30px]">Location & Accessibility</div>
-				<div className="mt-[50px] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[50px]">
+				<div className="mt-[50px] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[30px]">
 					{locationList.map((locationItem, index) => (
-						<div>
+						<div className={`${locationItem.customStyle}`}>
 							<LocationCard locationData={locationItem} />
 						</div>
 					))}
@@ -104,7 +104,7 @@ export default function Homepage() {
 						</div>
 					</div>
 					<div>
-						<img src={poshBuilding} className="rounded-[20px] max-[1200px]:hidden" />
+						<img src={poshBuilding} className="rounded-[20px] max-[1200px]:hidden border-solid border-[2px] border-[#37405E]" />
 					</div>
 				</div>
 			</div>

@@ -85,22 +85,14 @@ export const premiumAmenities = [
 
 export const locationList = [
 	{
-		url: travel,
-		title: 'Airport',
+		url: restaurant,
+		title: 'Restaurants',
 		items: [
-			'Coimbatore International Airport - 11.3 Km',
-			'Coimbatore Junction - 5.7 Km',
-			'Podanur Junction - 3.5 Km',
-		]
-	},
-	{
-		url: school,
-		title: 'Schools',
-		items: [
-			'Trinity Matriculation School - 2.8 Km',
-			'Alvernia Matriculation School - 2.6 Km',
-			'BVM School - 2 Km',
-			'Vidhya Nikethan Public School - 4.3 Km',
+			'Thinai Amuthu Millet Restaurant - 750 meters',
+			'BBH (Bangalore Biriyani Hotel) Restaurant & Cafe - 4.2 Km',
+			'Nanjai Virundhu Restaurant  - 5.1 Km',
+			'Shree Anandas Restaurant - 4.7 Km',
+			'Denmark Drive-in Restaurant - 6.7 Km',
 		]
 	},
 	{
@@ -114,26 +106,6 @@ export const locationList = [
 			'Bishop Appasamy College - 5.3 Km',
 			'Bishop Ambrose College - 4.5 Km',
 			'Krishna College - 10 Km',
-		]
-	},
-	{
-		url: restaurant,
-		title: 'Restaurants',
-		items: [
-			'Thinai Amuthu Millet Restaurant - 750 meters',
-			'BBH (Bangalore Biriyani Hotel) Restaurant & Cafe - 4.2 Km',
-			'Nanjai Virundhu Restaurant  - 5.1 Km',
-			'Shree Anandas Restaurant - 4.7 Km',
-			'Denmark Drive-in Restaurant - 6.7 Km',
-		]
-	},
-	{
-		url: superMarket,
-		title: 'Grocery & Hypermarkets',
-		items: [
-			'Dennis Hyper Market - 3.3 Km',
-			'Lulu Hyper Market - 5 Km',
-			'Shri Kannan Departmental Store - 1.2 Km',
 		]
 	},
 	{
@@ -165,7 +137,36 @@ export const locationList = [
 			'Karur Vysya Bank - 2.5 Km',
 			'Indusind Bank - 2.5 Km',
 			'Andhra Bank - 3 Km',
-		]
+		],
+		customStyle: 'row-span-2',
+	},
+	{
+		url: travel,
+		title: 'Airport',
+		items: [
+			'Coimbatore International Airport - 11.3 Km',
+			'Coimbatore Junction - 5.7 Km',
+			'Podanur Junction - 3.5 Km',
+		],
+	},
+	{
+		url: school,
+		title: 'Schools',
+		items: [
+			'Trinity Matriculation School - 2.8 Km',
+			'Alvernia Matriculation School - 2.6 Km',
+			'BVM School - 2 Km',
+			'Vidhya Nikethan Public School - 4.3 Km',
+		],
+	},
+	{
+		url: superMarket,
+		title: 'Grocery & Hypermarkets',
+		items: [
+			'Dennis Hyper Market - 3.3 Km',
+			'Lulu Hyper Market - 5 Km',
+			'Shri Kannan Departmental Store - 1.2 Km',
+		],
 	},
 
 ]
