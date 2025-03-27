@@ -23,7 +23,7 @@ export default function Homepage() {
 					<div className="text-[#D3AC4A] text-[24px] my-[30px]">
 						Premium Gated Community in Coimbatore
 					</div>
-					<div className="text-[20px] font-light">
+					<div className="text-[18px] font-light">
 						Experience the perfect blend of elegance, security, and future-ready living at Fair Field – Anicham & Magilam. Strategically located in Ramanathapuram, Coimbatore, our premium gated community offers world-class amenities, sustainable infrastructure, and unparalleled investment opportunities.
 					</div>
 					<a href="tel:+91 7900884488">
@@ -108,7 +108,7 @@ export default function Homepage() {
 						</div>
 					</div>
 					<div>
-						<img src={poshBuilding} className="rounded-[20px] max-[1200px]:hidden border-solid border-[2px] border-[#37405E]" />
+						<img src={poshBuilding} className="rounded-[20px] max-[1200px]:hidden border-solid border-[2px] border-[#37405E] max-w-[550px]" />
 					</div>
 				</div>
 			</div>
