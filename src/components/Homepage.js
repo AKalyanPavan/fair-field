@@ -15,7 +15,7 @@ export default function Homepage() {
 			<Header />
 			<div className="sm:mt-[150px] mt-[50px] sm:flex justify-between items-center sm:gap-[50px]">
 				<div className="text-[#37405E] min-[1200px]:max-w-[600px]">
-					<div className="text-[40px] sm:text-[54px] leading-[60px]">
+					<div className="text-[40px] sm:text-[52px] sm:leading-[70px] leading-[60px]">
 						<span>Welcome to Fair Field </span>
 						<br className="max-sm:hidden" />
 						<span>– Anicham & Magilam</span>
@@ -24,7 +24,7 @@ export default function Homepage() {
 						Premium Gated Community in Coimbatore
 					</div>
 					<div className="text-[18px] font-light">
-						Experience the perfect blend of elegance, security, and future-ready living at Fair Field – Anicham & Magilam. Strategically located in Ramanathapuram, Coimbatore, our premium gated community offers world-class amenities, sustainable infrastructure, and unparalleled investment opportunities.
+						Experience the perfect blend of elegance, security, and future-ready living at Fair Field – Anicham & Magilam. Strategically located in Ramanathapuram, Coimbatore, our premium gated community offers sustainable infrastructure, and unparalleled investment opportunities.
 					</div>
 					<a href="tel:+91 7900884488">
 						<div className="w-fit mt-[30px] bg-[#37405E] py-[10px] px-[20px] rounded-[5px] cursor-pointer">
@@ -48,7 +48,7 @@ export default function Homepage() {
 						<Card cardData={basicFeautre} />
 					))}
 				</div>
-				<a href="tel:+91 7900884488">
+				<a href="tel:+91 7900882288">
 					<div className="w-fit mt-[30px] bg-[#37405E] mt-[50px] py-[10px] px-[20px] rounded-[5px] cursor-pointer mx-auto">
 						<span className="text-[#ffffff] tracking-tight">
 							Join an Elite Community – Reserve Your Spot Today!
@@ -129,11 +129,11 @@ export default function Homepage() {
 				<div className="sm:text-[40px] text-[30px] text-center text-[#37405E]">
 					Fair Field – Where Luxury Meets Smart Investment!
 				</div>
-				<a href="tel:+91 7900882288">
+				<a href="tel:+91 7900884488">
 					<div className="bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium w-fit mx-auto mt-[20px]">
 						<img src={phone} />
 						<span className="text-[#ffffff] ml-[10px]">
-							+91 79 00 88 22 88
+							+91 79 00 88 44 88
 						</span>
 					</div>
 				</a>

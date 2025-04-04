@@ -33,7 +33,7 @@ export const basicFeatures = [
 	{
 		url: luxuryVilla,
 		title: 'Luxury Villas & Premium Plots',
-		description: 'Choose from a range of customizable homes and plots designed to fit your lifestyle needs, starting from ₹18L. Build a home that reflects your personality and meets your every requirement.',
+		description: 'Choose from a range of customizable homes and plots designed to fit your lifestyle needs, starting from ₹18.5L. Build a home that reflects your personality and meets your every requirement.',
 		customStyle: 'broder-solid border-[1px] border-[#BFBDBD]',
 	},
 	{
@@ -51,7 +51,7 @@ export const basicFeatures = [
 	{
 		url: highProperty,
 		title: 'High Property Appreciation',
-		description: 'nefit from an environment-friendly community featuring solar',
+		description: 'Situated in a well-connected neighborhood, offering easy access to business districts, educational institutions, and healthcare facilities. Live in a thriving area that combines convenience with future growth potential',
 		customStyle: 'broder-solid border-[1px] border-[#BFBDBD]',
 	},
 	{
@@ -174,7 +174,7 @@ export const locationList = [
 export const dreamHomeItems = [
 	{
 		url: sold,
-		description: 'Over 32 plots already sold – Limited units available! Secure your dream home before it\'s too late.'
+		description: 'Over 33 plots already sold – Limited units available! Secure your dream home before it\'s too late.'
 	},
 	{
 		url: priceRaise,
