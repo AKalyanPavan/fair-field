@@ -132,7 +132,7 @@ export default function FormComponent() {
 
 	return(
 		<>
-			<div className="mt-[20px] flex flex-col gap-[10px] sm:w-[90%]">
+			<div className="mt-[20px] flex flex-col gap-[10px] sm:w-[90%] max-w-[400px]">
 				<div className="">
 				    <div id="fullName" className="flex border-solid border-[1.5px] border-[#37405E] rounded-[5px] h-[50px] items-center hover:border-[#37405E]" onClick={() => onInputClicked("fullName")}>
 				        <label className="ml-[5px] absolute text-[#677788] cursor-text bg-[#FFFFFF] px-[10px]">Full name</label>
@@ -154,7 +154,7 @@ export default function FormComponent() {
 				    </div>
 				    <div className="text-right mt-[2px] text-[12px] text-[#ff3f3f] invisible" id="errorPhonenumber">Please provide valid phone number</div>
 				</div>
-				<div className="w-fit bg-[#37405E] py-[10px] px-[20px] rounded-[5px] cursor-pointer" onClick={() => validateInput()}>
+				<div className="w-full text-center bg-[#37405E] py-[10px] px-[20px] rounded-[5px] cursor-pointer" onClick={() => validateInput()}>
 					<span className="text-[#ffffff] tracking-tight">
 						Book Your Visit Today
 					</span>
