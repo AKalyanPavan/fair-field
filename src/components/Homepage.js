@@ -52,7 +52,7 @@ export default function Homepage() {
 				</a>
 			</div>
 			<div className="mt-[100px] text-[#37405E] text-center">
-				<div className="sm:text-[36px] text-[30px]">Our Premium Amenities</div>
+				<div className="sm:text-[36px] text-[30px]">Premium Services</div>
 				<div className="mt-[50px] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[50px]">
 					{premiumAmenities.map((premiumAmenity, index) => (
 						<Card cardData={premiumAmenity} />
