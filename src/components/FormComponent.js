@@ -93,6 +93,8 @@ export default function FormComponent() {
 	    }
 
 	    if(!isError){
+
+		window.centilio_connector_init.submit();
 	      
 	        // Making input values empty
 	        fname.value = "";
