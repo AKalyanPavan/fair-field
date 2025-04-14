@@ -3,7 +3,7 @@ import Card from './Card.js'
 import LocationCard from './LocationCard.js'
 import FormComponent from './FormComponent.js'
 
-import firstSection from '../images/first-section.png'
+import firstSection from '../images/first-section.jpeg'
 import poshBuilding from '../images/posh-building.png'
 
 import { basicFeatures, premiumAmenities, dreamHomeItems, locationList } from './Variables.js'
